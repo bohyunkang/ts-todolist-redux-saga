@@ -1,7 +1,7 @@
 import { createGlobalStyle } from 'styled-components';
 import reset from 'styled-reset';
 
-const GlobalStyles = createGlobalStyle` 
+const GlobalStyles = createGlobalStyle<{ theme: any }>` 
   ${reset}
 
   * {
@@ -9,7 +9,7 @@ const GlobalStyles = createGlobalStyle`
   }
 
   body {
-    background-color: #ffc4fc;
+    background-color: ${({ theme }) => theme.color.main};
     background-image: 
         radial-gradient(at 47% 33%, hsl(46.96, 79%, 89%) 0, transparent 59%), 
         radial-gradient(at 82% 65%, hsl(4.29, 97%, 75%) 0, transparent 55%);
@@ -31,14 +31,6 @@ const GlobalStyles = createGlobalStyle`
     cursor: pointer;
   }
 
-  select {
-    outline:none;
-    -moz-appearance: none;
-    -webkit-appearance: none;
-    appearance: none;
-  }
-
-  select::-ms-expand { display:none; } 
 `;
 
 export default GlobalStyles;
