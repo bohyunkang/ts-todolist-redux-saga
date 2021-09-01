@@ -1,14 +1,12 @@
 import React from 'react';
 import styled from 'styled-components';
 import Header from 'components/common/Header';
-import TodoList from 'components/TodoList';
-import TodoInput from './TodoInput';
+import TodoList from 'components/Todo/TodoList';
 
 const TodoTemplate: React.FC = () => {
   return (
     <TodoTemplateWrapper>
       <Header />
-      <TodoInput />
       <TodoList />
     </TodoTemplateWrapper>
   );
