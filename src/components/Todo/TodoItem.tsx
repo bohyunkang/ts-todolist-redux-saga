@@ -91,7 +91,8 @@ const EditInput = styled.input`
 `;
 
 const EditSave = styled.button`
-  border: 1px solid black;
+  width: 20px;
+  height: 20px;
 `;
 
 const CheckTodoIcon = styled.div<{ isCheck: boolean }>`

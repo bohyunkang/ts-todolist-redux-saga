@@ -3,7 +3,7 @@ export const theme = {
     main: '#ffc4fc',
     sub: '#85e9be',
     borderLine: 'rgba(209, 213, 219, 0.3)',
-    checkedLine: '#dddddd',
+    checkedLine: '#2f475d',
   },
   font: {
     headerSize: '30px',
