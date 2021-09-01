@@ -1,8 +1,16 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import styled from 'styled-components';
-import TodoTemplate from 'components/TodoTemplate';
+import { useDispatch } from 'react-redux';
+import { loadList } from 'store/actions/todo';
+import TodoTemplate from 'components/Todo/TodoTemplate';
 
 const App: React.FC = () => {
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    dispatch(loadList());
+  }, []);
+
   return (
     <TodoContainer>
       <TodoTemplate />
