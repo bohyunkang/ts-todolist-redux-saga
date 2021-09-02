@@ -1,0 +1,55 @@
+{
+  "todo": [
+    {
+      "id": "1",
+      "content": "리액트 공부하기",
+      "isCheck": true,
+      "createdAt": "2021-08-30T11:51:05.097Z"
+    },
+    {
+      "id": "2",
+      "content": "타입스크립트 공부하기",
+      "isCheck": false,
+      "createdAt": "2021-08-31T13:15:25.729Z"
+    },
+    {
+      "id": "3",
+      "content": "리덕스 사가 공부하기",
+      "isCheck": false,
+      "createdAt": "2021-09-01T16:55:45.089Z"
+    },
+    {
+      "headers": {
+        "Access-Control-Allow-Origin": "*"
+      },
+      "content": "string",
+      "id": "YjCacA5"
+    },
+    {
+      "headers": {
+        "Access-Control-Allow-Origin": "*"
+      },
+      "content": "string",
+      "id": "izgC9uv"
+    },
+    {
+      "headers": {
+        "Access-Control-Allow-Origin": "*"
+      },
+      "content": "string",
+      "id": "D5rBRPz"
+    },
+    {
+      "headers": {
+        "Access-Control-Allow-Origin": "*"
+      },
+      "id": "k-uZxFW"
+    },
+    {
+      "headers": {
+        "Access-Control-Allow-Origin": "*"
+      },
+      "id": "YFE0g4c"
+    }
+  ]
+}
