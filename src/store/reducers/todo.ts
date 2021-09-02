@@ -3,8 +3,10 @@ import * as types from 'store/actions/types';
 import { list } from 'types';
 import { getStorage, setStorage, removeTodoStorage } from 'utils/storage';
 
+// 초기 상태
 const initialState: list = [];
 
+// 리듀서 함수 만들기
 const todoReducer = (state = initialState, action: TodoAction) => {
   switch (action.type) {
     case types.LOAD_LIST: {

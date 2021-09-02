@@ -1,3 +1,4 @@
+// 액션 타입 정의
 export const ADD_TODO = 'ADD_TODO' as const;
 export const TOGGLE_TODO = 'TOGGLE_TODO' as const;
 export const MODIFY_TODO = 'MODIFY_TODO' as const;

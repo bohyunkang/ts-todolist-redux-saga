@@ -13,10 +13,10 @@ const TodoInput: React.FC<TodoItemProps> = ({ todos }) => {
   const dispatch = useDispatch();
   const [inputTodo, setInputTodo] = useState<string>('');
 
+  // 새로운 투두 항목 추가
   const onChangeInput: React.ChangeEventHandler<HTMLInputElement> = e => {
     setInputTodo(e.currentTarget.value);
   };
-
   const onRegisterTodo: React.MouseEventHandler<HTMLButtonElement> = e => {
     e.preventDefault();
     const todoLength = todos.length;

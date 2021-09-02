@@ -19,11 +19,13 @@ const TodoItem: React.FC<TodoItemProps> = ({ todo }) => {
   const [modifyValue, setModifyValue] = useState<string>(todo.content);
   const [isModify, setIsModify] = useState<boolean>(false);
 
+  // 완료된 투두 토글 기능
   const onToggleTodo = () => {
     const checkTodo: checkTodo = { id: todo.id, isCheck: !todo.isCheck };
     dispatch(toggleTodo(checkTodo));
   };
 
+  // 투두 수정 기능
   const onModifyMode = () => {
     setIsModify(true);
   };
@@ -37,6 +39,7 @@ const TodoItem: React.FC<TodoItemProps> = ({ todo }) => {
     dispatch(modifyTodo(editTodo));
   };
 
+  // 투두 삭제 기능
   const onRemoveTodo = () => {
     dispatch(removeTodo(todo.id));
   };
