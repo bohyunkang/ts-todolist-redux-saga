@@ -13,8 +13,13 @@
 
 ## 설치 및 시작 방법
 ```
+// 깃 레포지토리 클론 받기
 git clone https://github.com/bohyunkang/ts-todolist-redux-saga.git
+// 해당 프로젝트 디렉토리 이동
+cd ts-todolist-redux-saga
+// dependencies 설치
 npm install
+// 프로젝트 시작
 npm start
 ```
 
@@ -22,6 +27,7 @@ npm start
 - [ ] `Mock Server` 혹은 `node.js` 활용한 서버 API 호출
 - [ ] 비동기 호출을 위한 `redux-saga` 적용
 - [ ] `createdAt` UTC → GMT 기준으로 수정
+- [ ] 수정 버튼 눌렀을 때, 수정 input 창에 focus 이동하게 하기
 
 ## 사용한 기술 및 라이브러리
 - typeScript
