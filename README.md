@@ -1,7 +1,7 @@
 # 페이워크 TodoList
 > TypeScript, React, Redux, Redux-saga를 활용한 투두리스트 구현
 
-## [🔗 배포 주소](https://paywork-todolist-with-redux.netlify.app/)
+## [🔗 배포 주소](https://to-do-list-with-redux.netlify.app/)
 
 ![투두리스트](https://user-images.githubusercontent.com/65386533/131763421-49ca1ab8-e71e-428b-b278-03d0b111796d.png)
 
