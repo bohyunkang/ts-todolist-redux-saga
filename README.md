@@ -1,5 +1,4 @@
-# 페이워크 TodoList
-> TypeScript, React, Redux, Redux-saga를 활용한 투두리스트 구현
+# TypeScript, React, Redux를 활용한 투두리스트 구현
 
 ## [🔗 배포 주소](https://to-do-list-with-redux.netlify.app/)
 
